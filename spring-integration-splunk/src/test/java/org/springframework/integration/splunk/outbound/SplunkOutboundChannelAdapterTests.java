@@ -15,14 +15,14 @@
  */
 package org.springframework.integration.splunk.outbound;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-import junit.framework.Assert;
+import static org.mockito.Mockito.*;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.integration.Message;
+
 import org.springframework.integration.splunk.support.SplunkExecutor;
+import org.springframework.messaging.Message;
 
 /**
  * @author Jarred Li
